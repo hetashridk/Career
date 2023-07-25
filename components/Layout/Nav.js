@@ -93,15 +93,21 @@ function Nav() {
       </nav>
           <Image src={header_career} className="hidden md:block"/>
           <Image src={header_career_mv} className="md:hidden"/>
-        <div className="bg-[#0057FF] p-7 md:hidden">
+        <div className="bg-[#0057FF] p-7 md:bg-transparent md:absolute md:top-24 md:flex md:flex-col md:items-center md:justify-center lg:top-0 lg:bottom-0 lg:left-0 lg:right-0">
             <div>
-              <p className="text-white text-2xl text-left">EXPLORE THE CAREER AT</p>
+              <p className="text-white text-2xl text-left p-1 md:font-semibold md:text-3xl lg:text-5xl">EXPLORE THE CAREER AT</p>
             </div>
             <div>
-              <p className="text-white text-3xl text-left">FINTRACT GLOBAL</p>
+              <p className="text-white text-3xl text-left p-1 md:font-semibold lg:text-5xl">FINTRACT GLOBAL</p>
             </div>
             <div>
-              <p className="text-white text-xl text-left">JOIN THE TEAM</p>
+              <p className="text-white text-xl text-left p-1 md:font-semibold md:text-3xl lg:text-5xl">JOIN THE TEAM</p>
+            </div>
+            <div>
+              <p className="text-white text-left p-1 md:font-semibold md:px-24 md:text-center md:pt-5 lg:text-xl lg:px-[24rem]">Join us in the Development of Cutting Edge Fintech Products and accelerate your Career Growth</p>
+            </div>
+            <div className="md:hidden mt-5">
+                <button className="bg-white px-4 py-1 border rounded-2xl">Contact us</button>
             </div>
         </div>
     </>
