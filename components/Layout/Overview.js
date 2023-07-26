@@ -34,6 +34,9 @@ function Overview() {
                     <li className="text-[#2C2C2C] lg:text-xl">Are willing to gain practical exposure under the mentorship of experienced professionals in their selected fields.</li>
                 
             </div>
+            <div className="mt-10">
+                <hr className="bg-[#618CFF] h-1"/>
+            </div>
         </div>
         </>
     );
