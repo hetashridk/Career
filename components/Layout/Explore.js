@@ -166,10 +166,6 @@ function Explore() {
             </div>
           </div>
         </div>
-    
-      {/* <div className="mt-10">
-                        <hr className="bg-[#618CFF] h-1" />
-             </div> */}
     </>
   );
 }
