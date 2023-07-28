@@ -1,4 +1,5 @@
 
+import Benefits from "@/components/Layout/Benefits";
 import Contact from "@/components/Layout/Contact";
 import Explore from "@/components/Layout/Explore";
 import Nav from "@/components/Layout/Nav";
@@ -13,6 +14,7 @@ function Index() {
       <Nav />
       <Overview />
       <Explore />
+      <Benefits />
       {/* <Contact /> */}
     </>
   
