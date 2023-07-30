@@ -17,7 +17,7 @@ function Index() {
       <Explore />
       <Benefits />
       <Joining />
-      {/* <Contact /> */}
+      <Contact />
     </>
   
   );
