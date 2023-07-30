@@ -10,13 +10,13 @@ import fb_logo from "../../public/images/fb_logo.png";
 import ld_logo from "../../public/images/ld_logo.png";
 import location from "../../public/images/location.png";
 import call from "../../public/images/call.png";
-import msg from "../../public/images/msg.png";
+import email from "../../public/images/email.png";
 
 function Contact() {
   return (
     <>
-      <div className="bg-black md:bg-[#EA580C]">
-        <div className="md:flex">
+      <div className="bg-black md:bg-[#EA580C] mt-36">
+        <div className="md:flex md:pr-44">
           <div>
             <div className="pl-5 pt-6 md:-p-[25rem]">
               <Image src={logo_mv} className="" />
@@ -27,7 +27,7 @@ function Contact() {
               </p>
             </div>
             <div>
-              <p className="text-white text-left pl-5 px-4 pt-2 text-[10px] md:text-[15px] md:">
+              <p className="text-white text-left pl-5 px-4 pt-2 text-[10px] md:text-[15px] lg:pr-96">
                 At Fintract Global Ltd, we combine a cutting-edge tech stack
                 with exceptional talent from Europe, Asia and America to lead
                 change in how financial entities work. Headquartered in London,
@@ -54,32 +54,35 @@ function Contact() {
               </div>
             </div>
           </div>
-        <div>
-          <div className="flex p-5">
-            <Image src={location} />
+        <div className="mr-10">
+          <div>
+            <p className="text-3xl text-white font-bold p-4">Contacts</p>
+          </div>
+          <div className="flex p-5 md:-mr-20 ">
+            <Image src={location} className="md:h-20" />
             <div>
-              <p className="text-white font-bold mt-5 ml-5">Address</p>
-              <p className="text-white text-[10px] ml-5">
+              <p className="text-white font-bold mt-5 ml-5 md:text-2xl">Address</p>
+              <p className="text-white text-[10px] ml-5 md:text-[15px] md:-ml-10 ">
                 Registered Office: London Office Address 71-75,
               </p>
-              <p className="text-white text-[10px] ml-5">
-                {" "}
+              <p className="text-white text-[10px] ml-5 md:text-[15px] md:-ml-10 ">
                 Sheldon Street, Covent Garden London, WC2h 9JQ
               </p>
+              {/* <p className="hidden md:block md:text-white md:text-xl">Registered Office: London Office Address 71-75, Sheldon Street, Covent Garden London, WC2h 9JQ </p> */}
             </div>
           </div>
           <div className="flex p-5">
-            <Image src={call} />
+            <Image src={call} className="md:h-20" />
             <div>
-              <p className="text-white font-bold mt-5 ml-5">Phone</p>
-              <p className="text-white text-[10px] ml-5">+44-2037373227</p>
+              <p className="text-white font-bold mt-5 ml-5 md:text-2xl">Phone</p>
+              <p className="text-white text-[10px] ml-5 md:text-[15px]">+44-2037373227</p>
             </div>
           </div>
           <div className="flex p-5">
-            <Image src={msg} />
+            <Image src={email} className="md:h-20" />
             <div>
-              <p className="text-white font-bold mt-5 ml-5">Email</p>
-              <p className="text-white text-[10px] ml-5">
+              <p className="text-white font-bold mt-5 ml-5 md:text-2xl">Email</p>
+              <p className="text-white text-[10px] ml-5 md:text-[15px]">
                 contact@fintract.co.uk
               </p>
             </div>
