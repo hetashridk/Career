@@ -7,25 +7,41 @@ import Image from "next/image";
 function Joining() {
   return (
     <>
-      <div className="mt-36 md:mt-10">
+      <div className="mt-36 md:mt-10 ">
         <div className="mt-4 p-8">
           <hr className="bg-[#0038CF] h-1" />
         </div>
 
-        <div className="md:flex md:flex-row-reverse">
+        <div className="md:flex md:flex-row-reverse lg:items-center md:justify-center">
           <div className="flex flex-col items-center justify-center">
             <Image src={joining_mv} className="md:hidden" />
-            <div>
-              <div>
-                <Image src={joining} className="h-[27.5rem] w-[20rem] mr-16" />
+            {/* <div> */}
+              {/* <div> */}
+                <Image src={joining} className="h-[29.5rem] w-[20rem] mr-16 hidden md:block" />
+              {/* </div> */}
+              <div className="absolute mr-12 hidden md:block">
+                <div className="flex space-x-2">
+                <p className="text-white text-2xl font-semibold">Interested </p>
+                <p className="text-[#00F890] text-2xl font-semibold"> in joining</p>
+                <p className="text-white text-2xl font-semibold">the </p>
+                </div>
+                <div className="flex space-x-2">
+                <p className="text-white text-2xl font-semibold">team but not</p>
+                <p className="text-[#00F890] text-2xl font-semibold">ready to</p>
+                </div>
+                <div className="flex space-x-2">
+                <p className="text-[#00F890] text-2xl font-semibold">apply</p>
+                <p className="text-white text-2xl font-semibold">or dont</p>
+                <p className="text-[#00F890] text-2xl font-semibold">see the</p>
+                </div>
+                <div className="flex space-x-2">
+                <p className="text-[#00F890] text-2xl font-semibold">right opportunity ?</p>
+                </div>
               </div>
-              <div className="">
-                <p>Intersted</p>
-              </div>
-            </div>
+            {/* </div> */}
           </div>
           <div>
-            <form className="shadow-[0_0px_22px_-2px_rgb(0,0,0,0.25)] ml-12 w-[18.5rem]">
+            <form className="shadow-[0_0px_22px_-2px_rgb(0,0,0,0.25)] ml-12 w-[18.5rem] md:ml-5">
               <div className="ml-5 pt-4">
                 <div>
                   <div>
@@ -138,7 +154,7 @@ function Joining() {
                 </div>
 
                 {/* sign up */}
-                <div className="mt-4 flex items-center justify-center">
+                <div className="mt-4 flex items-center justify-center p-4">
                   <button className="bg-[#001870] rounded-md text-white px-4 py-1 text-[0.75rem]">
                     Sign Up
                   </button>
